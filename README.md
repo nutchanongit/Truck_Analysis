@@ -27,6 +27,8 @@ Analyze GPS tracking data from freight trucks operating around **Laem Chabang Po
 - Interpreted speed zones relative to industrial zones, port access, and highways
 
 ### 3. CO₂ Emissions Estimation
+- Used Jaccard similarity to identify route patterns.
+- Applied K-Means clustering to classify the identified route patterns.
 - Calculated trip distances and average speeds using timestamped location data  
 - Estimated CO₂ output using published emission factors (grams CO₂ per ton-kilometer)  
 - Generated a **baseline emissions profile** for current road transport operations
